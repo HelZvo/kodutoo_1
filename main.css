@@ -1,3 +1,26 @@
+@font-face {
+    font-family: Javacom;
+    src: url(/Javacom.otf);
+}
 img {
     height: 300px;
+}
+h1{
+    font-size: 3em;
+    font-family: Javacom, cursive, sans-serif
+}
+h2 {
+    background-color: lightgray;  
+    font-size: 2em;  
+}
+
+nav ul{
+    display: flex;
+
+}
+nav ul ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
 }
