@@ -2,16 +2,22 @@
     font-family: Javacom;
     src: url(/Javacom.otf);
 }
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 img {
     height: 300px;
 }
-h1{
+h1 {
     font-size: 3em;
-    font-family: Javacom, cursive, sans-serif
+    font-family: Javacom, sans-serif;
+    margin: 1.5em 5vw;
 }
 h2 {
-    background-color: lightgray;  
-    font-size: 2em;  
+    background-color: rgba(191, 191, 191, 0.8);
+    font-family: arial, sans-serif;  
+    font-size: 2em;
+    margin: 1em 0;
+    padding: 0.3em 5vw; 
 }
 
 nav ul{
@@ -23,4 +29,9 @@ nav ul ul{
 }
 nav ul li:hover ul{
     display: block;
+}
+body { 
+    background-image: url('/back_2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
