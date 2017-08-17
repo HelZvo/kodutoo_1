@@ -7,6 +7,10 @@
 img {
     height: 300px;
 }
+header {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px 
+}
 h1 {
     font-size: 3em;
     font-family: Javacom, sans-serif;
@@ -19,7 +23,6 @@ h2 {
     margin: 1em 0;
     padding: 0.3em 5vw; 
 }
-
 nav ul{
     display: flex;
 
